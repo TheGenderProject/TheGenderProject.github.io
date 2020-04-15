@@ -1,0 +1,143 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #772f1a;
+}
+
+nav ul a {
+  font-size: 2em;
+}
+
+nav img {
+  height: 80%;
+  width: 80%;
+  margin-top: 3%;
+}
+
+nav .nav-wrapper {
+    height: 200%;
+    padding: 0px 100px;
+  }
+
+#elements-nav {
+  margin-top: 3%;
+  color: #e0e0e0;
+}
+
+.header {
+  margin-top: 15%;
+  font-family: 'Oswald', sans-serif;
+}
+
+.header-sub {
+  margin-top: 5%;
+  font-size: 1.5em;
+  color: #eaefd3;
+  font-family: 'Oswald', sans-serif;
+}
+
+.btn-large {
+  font-size: 1.5em;
+  font-family: 'Oswald', sans-serif;
+}
+nav img.src {
+  margin-left: 15%
+  margin-top: 0%;
+}
+nav .brand-logo {
+  margin-left: 5%;
+  font-family: 'Girassol', cursive;
+  font-size: 4em;
+}
+
+body {
+ font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.section-intro {
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section-intro {
+    position: absolute;
+    top: 40%;
+    height: 100%
+    width: 100%;
+  }
+  nav img {
+  height: 50%;
+  width: 50%;
+  margin-top: 5%;
+  #index-banner .section {
+    top: 10%;
+  }
+
+  #elements.nav {
+    font-size: 2em;
+  }
+  
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  nav .nav-wrapper {
+    height: 100%;
+    padding: 0px 10px;
+  }
+  nav img {
+  height: 25%;
+  width: 25%;
+  margin-top: 5%;
+  }
+  .section-intro {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.col-project {
+  margin-top: 120px;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+h5 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.63em;
+}
+
+footer.page-footer {
+  margin: 0;
+}
