@@ -23,6 +23,7 @@ nav img {
 
 nav .nav-wrapper {
     height: 200%;
+    width: 100%;
     padding: 0px 100px;
   }
 
@@ -85,9 +86,7 @@ p {
   font-size: 1em;
 }
 
-.section-intro {
-  margin-top: 120px;
-}
+
 .col-community {
   line-height: 1.5em;
 }
@@ -95,6 +94,7 @@ p {
 .col-project {
   margin-top: 120px;
 }
+
 
 .section-project {
   margin-top: 120px;
@@ -109,8 +109,7 @@ p {
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section-intro {
-    position: absolute;
-    top: 40%;
+    position: relative;
     height: 100%
     width: 100%;
   }
@@ -125,6 +124,11 @@ p {
   #elements.nav {
     font-size: 2em;
   }
+  .index-banner {
+    height: 100%
+    width: 100%;
+  }
+
   
 }
 
@@ -132,9 +136,17 @@ p {
   #index-banner .section {
     top: 0;
   }
+
   nav .nav-wrapper {
     height: 100%;
+    width:100%;
     padding: 0px 10px;
+  }
+  .parallax-container .section-intro {
+    position: relative;
+    top: 10%;
+    height: 100%
+    width: 100%;
   }
   nav img {
   height: 25%;
@@ -145,26 +157,8 @@ p {
     height: 100%;
     width: 100%;
   }
-}
-
-.col-project {
-  margin-top: 120px;
-}
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-h5 {
-  font-size: 3em;
-}
-
-p {
-  font-size: 1.63em;
-}
-
-footer.page-footer {
-  margin: 0;
+  .col-project {
+    height: 100%
+    width: 100%;
+  }
 }
