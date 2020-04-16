@@ -32,7 +32,6 @@ nav .nav-wrapper {
 }
 
 .header {
-  margin-top: 15%;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -62,7 +61,8 @@ body {
 }
 
 p {
-  line-height: 2rem;
+  line-height: 3rem;
+  font-size: 1.5em;
 }
 
 .sidenav-trigger {
@@ -78,6 +78,30 @@ p {
 .section-intro {
   height: 100%;
   width: 100%;
+  margin-top: 20%;
+}
+
+.material-icons {
+  font-size: 1em;
+}
+
+.col-community {
+  line-height: 1.5em;
+}
+
+.col-project {
+  margin-top: 120px;
+}
+
+.section-project {
+  margin-top: 120px;
+}
+.section-community {
+  margin-top: 120px;
+}
+
+.section-crowdfunding {
+  margin-top: 120px;
 }
 
 @media only screen and (max-width : 992px) {
