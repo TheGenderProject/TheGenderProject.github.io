@@ -80,6 +80,7 @@ p {
 .section-intro {
   height: 100%;
   width: 100%;
+
 }
 
 .material-icons {
@@ -109,7 +110,6 @@ p {
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section-intro {
-    position: relative;
     height: 100%
     width: 100%;
   }
@@ -143,7 +143,7 @@ p {
     padding: 0px 10px;
   }
   .parallax-container .section-intro {
-    position: relative;
+    position: absolute;
     top: 10%;
     height: 100%
     width: 100%;
@@ -153,10 +153,7 @@ p {
   width: 25%;
   margin-top: 5%;
   }
-  .section-intro {
-    height: 100%;
-    width: 100%;
-  }
+  
   .col-project {
     height: 100%
     width: 100%;
