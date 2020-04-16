@@ -32,6 +32,7 @@ nav .nav-wrapper {
 }
 
 .header {
+  margin-top: 15%;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -78,13 +79,15 @@ p {
 .section-intro {
   height: 100%;
   width: 100%;
-  margin-top: 20%;
 }
 
 .material-icons {
   font-size: 1em;
 }
 
+.section-intro {
+  margin-top: 120px;
+}
 .col-community {
   line-height: 1.5em;
 }
