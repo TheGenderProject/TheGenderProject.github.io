@@ -24,17 +24,14 @@ nav img {
 nav .nav-wrapper {
     height: 200%;
     width: 100%;
-    padding: 0px 100px;
+    padding: 0px 60px;
   }
 
 #elements-nav {
   margin-top: 3%;
-  color: #e0e0e0;
+  color: #ffd740;
 }
 
-#elements-nav {
-  color: #212121;
-}
 
 .header {
   margin-top: 15%;
@@ -53,7 +50,7 @@ nav .nav-wrapper {
   font-family: 'Oswald', sans-serif;
 }
 nav img.src {
-  margin-left: 15%
+  margin-left: 10%
   margin-top: 0%;
 }
 nav .brand-logo {
