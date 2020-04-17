@@ -12,8 +12,12 @@ document.addEventListener('DOMContentLoaded', function() {
   // Or with jQuery
 
   $(document).ready(function(){
-    $('.slider').slider();
-  });
+    $('.sidenav')
+        .sidenav()
+        .on('click tap', 'li a', () => {
+            $('.sidenav').sidenav('close');
+        });
+});
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space

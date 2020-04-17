@@ -24,7 +24,7 @@ nav img {
 nav .nav-wrapper {
     height: 200%;
     width: 100%;
-    padding: 0px 40px;
+    padding: 0px 40px 10px 40px;
   }
 
 #elements-nav {
@@ -32,6 +32,12 @@ nav .nav-wrapper {
   color: #ffd740;
 }
 
+.sidenav li > a {
+    font-size: 20px;
+    height: 48px;
+    line-height: 48px;
+    padding: 32px 32px;
+}
 
 .header {
   margin-top: 15%;
@@ -134,12 +140,13 @@ p {
     line-height: 150px;
 }
 
-  #elements.nav {
-    font-size: 2em;
-  }
+
   .index-banner {
     height: 100%
     width: 100%;
+  }
+  .sidenav {
+    padding-top: 15%;
   }
 
   
