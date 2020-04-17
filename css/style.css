@@ -24,7 +24,7 @@ nav img {
 nav .nav-wrapper {
     height: 200%;
     width: 100%;
-    padding: 0px 40px 10px 40px;
+    padding: 0px 40px;
   }
 
 #elements-nav {
@@ -78,6 +78,16 @@ p {
 .sidenav-trigger {
   color: #26a69a;
 }
+
+nav .sidenav-trigger i {
+    line-height: 100px;
+  }
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    display: block;
+    font-size: 40px;
+  }
+
 
 .parallax-container {
   min-height: 380px;
@@ -135,10 +145,10 @@ p {
   nav i {
     font-size: 50px;
   }
-  nav .nav-wrapper i, nav a.sidenav-trigger i {
-    height: 100px;
-    line-height: 150px;
-}
+ nav .nav-wrapper {
+    height: 200%;
+    width: 100%;
+    padding: 20px 10px;
 
 
   .index-banner {
