@@ -9,6 +9,10 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Slider.init(elems, options);
   });
 
+$(document).ready(function(){
+    $('.slider').slider();
+  });
+
   // Or with jQuery
 
   $(document).ready(function(){
