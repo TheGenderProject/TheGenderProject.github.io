@@ -126,6 +126,14 @@ p {
     top: 10%;
   }
 
+  nav i {
+    font-size: 50px;
+  }
+  nav .nav-wrapper i, nav a.sidenav-trigger i {
+    height: 100px;
+    line-height: 150px;
+}
+
   #elements.nav {
     font-size: 2em;
   }
