@@ -6,7 +6,6 @@
  * Made By MaterializeCSS.com
  */
 
-
 nav ul a,
 nav .brand-logo {
   color: #772f1a;
@@ -44,8 +43,6 @@ nav .nav-wrapper {
   margin-top: 15%;
   font-family: 'Oswald', sans-serif;
 }
-
-
 
 .header-sub {
   margin-top: 5%;
