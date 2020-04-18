@@ -71,8 +71,8 @@ body {
 }
 
 p {
-  line-height: 2rem;
-  font-size: 1.2em;
+  line-height: 3rem;
+  font-size: 1.5em;
 }
 
 .sidenav-trigger {
@@ -98,12 +98,11 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
 .section-intro {
   height: 100%;
   width: 100%;
-  margin-top: 200px;
 
 }
 
 .material-icons {
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 
@@ -115,9 +114,7 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
   margin-top: 120px;
 }
 
-.divider-sect {
-  margin-top: 120px;
-}
+
 .section-project {
   margin-top: 120px;
 }
