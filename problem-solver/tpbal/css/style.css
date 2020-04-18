@@ -66,6 +66,10 @@ nav .brand-logo {
 
 }
 
+img .back1 {
+text-shadow: 0px 0px 3px black
+}
+
 body {
  font-family: 'Roboto Condensed', sans-serif;
 }
@@ -118,7 +122,9 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
 .divider-sect {
   margin-top: 120px;
 }
-
+.section-project {
+  margin-top: 120px;
+}
 .section-community {
   margin-top: 120px;
 }
