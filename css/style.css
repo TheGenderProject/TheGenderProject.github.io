@@ -98,7 +98,7 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
 .section-intro {
   height: 100%;
   width: 100%;
-  margin-top: 200px;
+  margin-top: 300px;
 
 }
 
@@ -124,6 +124,11 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
 .section-community {
   margin-top: 120px;
 }
+
+#cont-community {
+  margin-bottom: 120px;
+}
+
 
 .section-crowdfunding {
   margin-top: 120px;
