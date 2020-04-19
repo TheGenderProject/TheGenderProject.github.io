@@ -72,7 +72,7 @@ body {
 
 p {
   line-height: 2rem;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 .sidenav-trigger {
@@ -115,7 +115,7 @@ h1 {
 h4 {
     font-size: 1.5rem;
     line-height: 110%;
-    margin: 1.52rem 0 0.912rem 0;
+    margin: 1.52rem 0 1.5rem 0;
 }
 
 .col-project {
